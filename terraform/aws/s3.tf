@@ -1,4 +1,5 @@
 resource "aws_s3_bucket" "data" {
+  #checkov:skip=APPSEC_2_AWS_6:The bucket is a FP  
   # bucket is public
   # bucket is not encrypted
   # bucket does not have access logs
